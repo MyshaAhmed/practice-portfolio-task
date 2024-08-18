@@ -1,0 +1,201 @@
+
+/* header- container class er styling gulo ei css file a rakhchi .(dot)header-container use kore */
+.header-container{
+    height: 100%; /* taking the whole height of a header*/
+    background-image: url("/images/Rectangle\ 5.png");
+    background-repeat: no-repeat; 
+    /* default background repeat hoy tai no kore dite hoy */
+    background-position: center top;
+}
+
+
+/* nav class er styling gulo ei css file a rakhchi .(dot)nav use kore */
+.nav{
+
+    /* background-color: var(--background-color); */
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20 px;
+    color: var(--primary-font-color);
+    font-size: 36px;
+    /* text-align: center; */
+
+}
+
+
+#start-id{
+    border-bottom: 1px solid var(--primary-font-color);
+}
+
+
+/* 
+    class lekhar shomoy .(dot)
+    id lekhar shomoy # (hash)
+*/
+#right-menu-icon-id{ 
+    width: 175px;
+    text-align: end;
+}
+/* id: particular kono text or icon size change a use kori  */
+/* #start-id{
+    width: 175px;
+    text-align: right;
+} */
+
+
+/* direct h1 tag k dhore bold kore dicchi banner title div er moddhe apply hocchilona */
+.banner-title h1 {
+
+    font-size: 110px; /* changed from 152px to 100px*/
+    /* text-align: center; added this */
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin: 40px 0px;
+}
+ 
+.banner-desc{
+    font-size: 20px;
+        /* changed from 152px to 100px*/
+        /* text-align: center; added this */
+        text-transform: uppercase;
+        font-weight: bolder;
+    
+        margin: 40px 0px;
+    }
+
+
+
+.banner-profile-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--primary-font-color);
+    border-bottom: 1px solid var(--primary-font-color);
+
+}
+
+.banner-profile-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 40px;
+}
+
+.work-icon-container{
+    display: flex;
+    gap: 14px;
+    padding: 30px 0px;  /* upore niche padding 30px and daane bame 0px */
+}
+
+.check-works-text{
+    border-bottom: 1px solid var(--primary-font-color);
+}
+
+.work-icon{
+    height: 60px;
+    width: 60px;
+}
+
+
+.banner-image-container{
+    background-color: var(--primary-font-color);  
+    width: fit-content;  /* fit-content korle img er space jure width ta niye nibe pura banner jure nibena */
+}
+
+
+#banner-image-id{
+    height: 300px;
+}
+
+
+
+.banner-footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-completed-card h1{
+    font-size: 152px;
+    text-transform: uppercase;
+}
+
+
+.project-completed-card p{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.project-completed-card2 h1{
+    font-size: 152px;
+    text-transform: uppercase;
+}
+
+
+.project-completed-card2 p {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.project-completed-card3 h1 {
+    font-size: 152px;
+    text-transform: uppercase;
+}
+
+.project-completed-card3 p {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.project-completed-card4 h1 {
+    font-size: 152px;
+    text-transform: uppercase;
+}
+
+.project-completed-card4 p {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* minimum koto px width device theke koto px width er moddhe kon kon style gula change hocche for android device and others==> @media only screen and (min-width: 200px) and (min-width: 576px) {} 
+   # usually tailwind and bootstrap diye android equivalent frontend kora hoy*/
+@media only screen and (min-width: 200px) and (max-width: 576px){    /* site dimension 200px theke 576px er moddhe hole font size 16px hobe */
+    .nav {
+        font-size: 16px;
+
+    }
+
+    .banner-footer-container{
+        flex-direction: column;
+    }
+
+    .banner-title h1 {
+    
+        font-size: 18px;
+        letter-spacing: 2px;
+        
+    }
+
+        .banner-profile-container{
+            display: flex;
+            flex-direction: column;
+
+        }
+
+    #banner-image-id {
+            height: 170px;
+    }
+
+
+    .container {
+        padding: 0px 30px;
+    }
+
+
+        * {
+            
+            padding: 6px;
+
+        }
+}

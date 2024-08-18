@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-font-color: #FEFFFF;
+    --background-color: #0C0418;
+    --primary-color: #BA0BF9;
+    --bluish-color:#5E4AF1;
+}
+
+/* using root to define a color attribute
+--primary-font a change korle ar 50 jaygay alada kore color change kora lagbena ekhane eshe change korlei hobe
+we use root to apply something globally */
+
+
+*{/*changing the default margin and padding of the whole web page*/
+
+    margin: 0; /*we want no margin and padding */ 
+    padding: 0; 
+    /* globally font ta pete root a rakhbo...size ek ek jaygay ek ekta hobe  */
+    font-family: "Antonio", sans-serif;
+    font-weight: 400;
+    /* globally text color white korte ekhane color white set korbo */
+    color: var(--primary-font-color);
+    
+}
+
+
+/* html a body tag dhoreo change kora jay, chaile eta body te container a dileo hobe */
+body{
+    background-color: var(--background-color);
+}
+
+
+/* .container er padding pura body te apply hocche tai eke body te declare korbo */
+.container{ 
+    /* padding a 2ta variable dile upore niche(1st var) 0px, left-right(2nd var) 40px 
+        equivalent of==>
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 0px;
+            padding-bottom: 0px;*/
+    padding: 0px 60px;
+
+    
+   
+}

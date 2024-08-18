@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./root.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./main.css">
+
+    <!-- block elememt div pura width ney -->
+</head>
+
+<body class="body-container">
+    <!-- header sectiion stats here  -->
+    <section class="header-container">
+        <!-- nav sectiion stats here  -->
+        <section class="nav-container">
+            <div class="nav">
+                <div id="start-id" class="start">
+                    <h3>GET STARTED</h3>
+                </div>
+                <div class="logo">
+                    <h3>PORTFOLIO</h3>
+                </div>
+                <div id="right-menu-icon-id" class="right-menu-icon">
+                    <img src="./images/Menu.png" />
+                </div>
+            </div>
+        </section>
+        <!-- nav sectiion ends here  -->
+
+        <!-- banner sectiion stats here  -->
+        <section class="banner-container">
+            <div class="banner-title">
+                <h1>Journey through Creativity Explore the Artistry Within </h1>
+            </div>
+            <div class="banner-desc">
+                <P>Dive into a world of creativity. Explore captivating visuals and innovative designs that speak
+                    volumes. Join us in a <br>
+                    journey where every click unveils inspiration. Welcome to a space where creativity knows no bounds
+                </P>
+            </div>
+            <div class="banner-profile-container">
+                <div class="banner-profile-desc">
+                    <div class="work-icon-container">
+                        <h1 class="check-works-text">CHECK WORKS</h1>
+                        <!-- hero icon svg copied and pasted -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="work-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg><!-- icon from heroicons keep it in <span></span> tag -->
+                    </div>
+                </div>
+                <div class="banner-image-container">
+                    <img id="banner-image-id" src="./images/young-bearded-man-with-striped-s-removebg-preview 1.png"
+                        alt="">
+                </div>
+            </div>
+            <div class="banner-footer-container">
+                <div class="project-completed-card">
+                    <h1>20+</h1>
+                    <p>Projects <br>completed</p>
+                </div>
+                <div class="project-completed-card2">
+                    <h1>2+</h1>
+                    <p>years of <br>experience</p>
+                </div>
+                <div class="project-completed-card3">
+                    <h1>3+</h1>
+                    <p>worked with <br>agencies</p>
+                </div>
+                <div class="project-completed-card4">
+                    <h1>20+</h1>
+                    <p>total <br>clients</p>
+                </div>
+            </div>
+
+        </section>
+        <!-- banner sectiion ends here  -->
+
+    </section>
+    <!-- header sectiion ends here==>  -->
+
+
+    <!-- main section starts here -->
+    <main>
+
+        <!-- expertise section starts here -->
+        <section style="height: 100%; margin-top: 80px;" class="expertise-container">
+            <div class="section-title">
+                <h1>
+                    // my expertise
+                </h1>
+            </div>
+            <div class="expertise">
+                <div id="exp-img1">
+                    <img id="exp-img1-id" src="./images/expertise/Group 242.png" alt="">
+                </div>
+                <div class="exp-img2">
+                    <img id="exp-img2-id" src="./images/expertise/Group 243.png" alt="">
+                </div>
+                <div class="exp-img3">
+                    <img id="exp-img3-id" src="./images/expertise/Group 244.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- expertise section ends here -->
+
+
+        <!-- project section starts here -->
+        <section style=" height: 100%; margin-top: 80px;" class="my-project-container">
+
+            <div class="section-title">
+                <h1>//PROJECTS</h1>
+            </div>
+            <div class="project-container">
+                <div id="projects" class="projects">
+                    <div class="project"><img src="./images/project/image 3.png" alt="">
+                    </div>
+                    <div class="project"><img src="./images/project/image 5.png" alt="">
+                    </div>
+                    <div class="project"><img src="./images/project/image 6.png" alt="">
+                    </div>
+                    <div class="project"><img src="./images/project/image 7.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="check-all-project-btn">
+                <!-- ==========================DOM MANIPULATION================================== -->
+                <button onclick="handleShowMoreProjects()">check all projects</button><!-- button er jonno onclick and form erjonno onsubmit use kori -->
+            </div>
+
+        </section>
+        <!-- project section ends here -->
+
+        <!-- blog section starts here -->
+        <section style=" height: 100%; margin-top: 80px;" class="blogs-container">
+            <!-- section title er naam eki rakhle oi class er css attributes same to same apply hobe -->
+            <div class="section-title">
+                <h1>//MY BLOGS</h1>
+            </div>
+
+            <div class="my-blogs">
+                <div c3lass="blog">
+                    <div class="blog-img">
+
+                        <img src="./images/blogs/blog_1.png" alt="">
+                    </div>
+                    <div class="tag">
+                        <h1>UI/UX Design</h1>
+                    </div>
+                    <div class="blog-date">
+                        <div class="dot1">
+                            <h1>.</h1>
+                        </div>
+                        <div class="date1">
+                            <h1>10 Nov, 2023</h1>
+                        </div>
+                        <div class="dot2">
+                            <h1>.</h1>
+                        </div>
+                        <div class="name">
+                            <h1>John Smith</h1>
+                        </div>
+                    </div>
+                    <div class="blog-text1">
+                        <p>Design Unraveled: Behind <br> the Scenes of UI/UX Magic</p>
+                    </div>
+                </div>
+                <div c3lass="blog">
+                    <div class="blog-img">
+
+                        <img src="./images/blogs/blog_2.png" alt="">
+                    </div>
+                    <div class="tag">
+                        <h1>UI/UX Design</h1>
+                    </div>
+                    <div class="blog-date">
+                        <div class="dot1">
+                            <h1>.</h1>
+                        </div>
+                        <div class="date1">
+                            <h1>10 Nov, 2023</h1>
+                        </div>
+                        <div class="dot2">
+                            <h1>.</h1>
+                        </div>
+                        <div class="name">
+                            <h1>John Smith</h1>
+                        </div>
+                    </div>
+                    <div class="blog-text1">
+                        <p>Mastering Web Design: Blending <br> Art and Tech for Digital <br> Brilliance</p>
+                    </div>
+                </div>
+                <div c3lass="blog">
+                    <div class="blog-img">
+
+                        <img src="./images/blogs/blog_3.png" alt="">
+                    </div>
+                    <div class="tag">
+                        <h1>UI/UX Design</h1>
+                    </div>
+                    <div class="blog-date">
+                        <div class="dot1">
+                            <h1>.</h1>
+                        </div>
+                        <div class="date1">
+                            <h1>10 Nov, 2023</h1>
+                        </div>
+                        <div class="dot2">
+                            <h1>.</h1>
+                        </div>
+                        <div class="name">
+                            <h1>John Smith</h1>
+                        </div>
+                    </div>
+                    <div class="blog-text1">
+                        <p>Launching Your Code: <br> Rocketing to New Heights in <br> Web Developmen</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <!-- blog section ends here -->
+
+            
+        <!-- testimonila section starts here -->
+        <section style="height: 100%; margin-top: 80px;" class="testimonial container">
+            <div class="testimonial-title">
+                <h1>TESTIMONIAL</h1>
+                <p>Explore client testimonials sharing our collaborative journey from concept to execution. Witness the <br> impact of
+                dedication, expertise, and creative solutions on their projects. Let these stories inspire <br> confidence for your next
+                venture</p>
+            </div>
+            <div style=" margin-top: 80px;" class="testimonial-cards">
+                <div class="testimonial-left-side-card">
+                    <div class="testimonial-left-side-card-top">
+                        <img src="./images/testimonial/testimonial1.png" alt="">
+                        <div class="test-left-side-text">
+                            <div>
+                                <h1>“Exceptional Service, <br> Outstanding Results!”</h1>
+                            </div>
+                            <div>
+                                <h3>Exceptional experience with this team! Their <br> commitment to excellence and creativity <br>surpassed my
+                                    expectations. From
+                                    concept to <br> delivery, they turned my vision into a remarkable <br> reality. Highly recommended for
+                                    outstanding <br> results!</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-left-side-card-top">
+                        <div class="test-left-side-text">
+                            <div>
+                                <h1>“Exceptional Service, <br> Outstanding Results!”</h1>
+                            </div>
+                            <div>
+                                <h3>Exceptional experience with this team! Their <br> commitment to excellence and creativity <br>surpassed my
+                                    expectations. From
+                                    concept to <br> delivery, they turned my vision into a remarkable <br> reality. Highly recommended for
+                                    outstanding <br> results!</h3>
+                            </div>
+                        </div>
+
+                        <img src="./images/testimonial/testimonial3.png" alt="">
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="testimonial-right-side-card">
+                    <div class="testimonial-right-side-card-top">
+                        <img id="testimonial-right-side-card-top-id" src="./images/testimonial/testimonial2.png" alt="">
+                        <div class="test-left-side-text">
+                            <div>
+                                <h1>“Exceptional Service, <br> Outstanding Results!”</h1>
+                            </div>
+                            <div>
+                                <h3>Exceptional experience with this team! Their <br> commitment to excellence and creativity <br>surpassed
+                                    my
+                                    expectations. From
+                                    concept to <br> delivery, they turned my vision into a remarkable <br> reality. Highly recommended for
+                                    outstanding <br> results!</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+         <!-- testimonila section ends here -->
+
+
+
+         <!-- footer section stars here -->
+        <footer class="footer-container">
+            <section class="main-footer">
+                <div class="footer-left-side">
+                    <h1 id="f-contact-info">// wanna work together?</h1>
+                    <form onsubmit="handleContact(event)" class="form"> 
+                        <!-- onsubmit er default behaviour reload kora-->
+                        <div>
+                            <input class="form-input" type="text" name="name" placeholder="YOUR NAME" required> <!-- here name is a unique identifier -->
+                        </div>
+                        <div>
+                            <input class="form-input" type="email" name="email" placeholder="YOUR EMAIL" required>
+                            <!-- if we write required , a text showing fill in this field will pop up and will not let submit until appropriate value is given -->
+                        </div>
+                        <div>
+                            <input style="margin-top: 60px;" class="form-input" type="text" name="message" placeholder="YOUR MESSAGE" required>
+                        </div>
+                        <button type="submit" class="send-btn">SEND</button>  
+                        <!-- submit is used to put all together in place. all the code will be executed -->
+                        <!-- <input class="form-input" type="text" placeholder="YOUR EMAIL"> -->
+                    </form>
+
+                </div>
+
+
+                <div class="footer-right-side">
+                    <h1 id="f-contact-info">other ways to contact</h1>
+                    <p id="f-email-info">portfolio@gmail.com</p>
+                    <p id="f-email-info">+880 18000 00000</p>
+                    <div class="f-social-icons">
+                        <a href=""><img src="./images/footer/f1.png" alt=""></a>
+                        <a href=""><img src="./images/footer/f2.png" alt=""></a>
+                        <a href=""><img src="./images/footer/f3.png" alt=""></a>
+                        <a href=""><img src="./images/footer/f4.png" alt=""></a> 
+                    </div>
+
+                </div>
+                
+                
+            
+            </section>
+            <!--=============================== part of dom manipulation============================================ -->
+            <div style="margin-top: 20px; margin-left: 100px;" id="success_container">
+            
+            </div>
+
+            <div class="hr-section">
+                <hr>
+            </div>
+            <div  class="footer-copy-right-text">
+                <p id="f-email-info">© 2023, John Smith. All rights Reserved</p>
+            </div>
+
+            
+        </footer>
+         <!-- footer section ends here -->
+          
+        <!--my expertise section starts here -->
+            
+
+            <section class="my-expertise">
+                <h1 style="padding: 50px 0px; font-size: 40px;  text-transform: uppercase; ">// my expertise</h1>
+                <div class="my-expertise-card-container">
+                    <div class="my-exp-card1-upper-parent">
+                        <h1 style="text-transform: uppercase; text-align: center;">UI/UX DESIGN</h1>
+                        <div class="my-exp-card1-parent">
+            
+                            <div style="position: relative; top: 40px;">
+                                <div class="my-exp-card-1">
+                                    <img style="width: 100%;" src="./images/expertise/Rectangle-exp1.png" alt="">
+                                </div>
+                                <div class="block-styles">
+                                </div>
+                                <div class="sub-block-styles">
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                    <div class="my-exp-card1-upper-parent">
+                        <h1 style="text-transform: uppercase; text-align: center;">WEB DESIGN</h1>
+                        <div class="my-exp-card1-parent">
+            
+                            <div style="position: relative; top: 40px;">
+                                <div class="my-exp-card-1">
+                                    <img style="width: 100%;" src="./images/expertise/Rectangle-exp2.png" alt="">
+                                </div>
+                                <div class="block-styles">
+                                </div>
+                                <div class="sub-block-styles">
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                    <div class="my-exp-card1-upper-parent">
+                        <h1 style="text-transform: uppercase; text-align: center;">WEB Development</h1>
+                        <div class="my-exp-card1-parent">
+            
+                            <div style="position: relative; top: 40px;">
+                                <div class="my-exp-card-1">
+                                    <img style="width: 100%;" src="./images/expertise/Rectangle-exp3.png" alt="">
+                                </div>
+                                <div class="block-styles">
+                                </div>
+                                <div class="sub-block-styles">
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            
+            </section>
+
+            
+      
+       
+         <!-- my expertise section ends here -->
+
+    </main>
+    <!-- main section ends here -->
+
+<!-- JS -->
+ <script src="./script.js"></script> <!-- here we will add the js file that we have created in src -->
+
+</body>
+
+</html>

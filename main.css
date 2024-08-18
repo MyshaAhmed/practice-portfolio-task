@@ -1,0 +1,549 @@
+.section-title{
+
+    padding: 20px;
+    font-size: 40px;
+
+}
+
+/* Expertise starts here===============> */
+
+.expertise-container {
+    background-image: url(./images/expertise/Rectangle\ 7.png);
+    height: 100%;
+    margin-top: 80px;
+    border-top: 1px solid var(--primary-font-color);
+    border-bottom: 1px solid var(--primary-font-color);
+    padding: 50px 50px;
+    /* width: fit-content; */
+
+}
+
+
+.exp-title {
+    text-align: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+/* .exp-img1{
+
+    width: fit-content;
+}
+
+
+.exp-img2 {
+
+    width: fit-content;
+}
+
+.exp-img3 {
+
+    width: fit-content;
+} */
+
+/* .expertise{
+    width: fit-content;
+} */
+
+#exp-img1-id {
+
+    height: 400px;
+}
+
+#exp-img2-id {
+
+    height: 400px;
+}
+
+#exp-img3-id {
+
+    height: 400px;
+}
+
+
+
+.expertise {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+}
+/* Expertise ends here===============> */
+
+
+
+/*   project starts here=====> */
+.projects{
+    display: grid;
+    grid-template-columns: auto auto;   /* 2ta column  er jonno 2ta auto */
+                                         /* grid-template-columns: repeat(2,1fr);   1ta fraction a 2ta column  */
+    gap: 40px;
+
+}
+
+.project img{
+    width: 100%;
+}
+
+
+
+.check-all-project-btn{
+    display: flex;
+    justify-content: center;  
+    /* kono kichu k center a ante tar parent k dhore display flex kore justify content center kore dibo 
+       button ta ekhon center a ashbe */
+}
+
+
+.check-all-project-btn button{
+    padding: 15px 60px;
+    background-color: var(--background-color);
+    border: 1px solid var(--primary-font-color);  /* border solid_______, dotted......., dashed------- hote pare */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 40px;
+    
+    
+}
+/*   project ends here=====> */
+
+
+/*   blog starts here=====> */
+
+.my-blogs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tag{
+    background-color: var(--primary-font-color);
+    width: fit-content;
+    padding: 17px 30px;
+    margin: 30px 0px;
+    border-radius: 40px;
+}
+
+.tag h1{
+    color: var(--background-color);
+}
+
+
+.blog-date{
+    display: flex;
+    gap: 20px;
+}
+
+.dot1{
+    background-color: var(--primary-color);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    /* margin: 0px 10px; */
+    
+}
+
+.dot1 h1{
+    color: var(--background-color);
+    /* padding: 0px 10px; */
+    /* margin: 0px 20px; */
+}
+
+
+.date1{
+    /* margin-left: 10px; */
+    /* margin-right: 20px; */
+    font-size: 10px;
+}
+
+.dot2 {
+    background-color: var(--bluish-color);
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    /* margin: 0px 10px; */
+}
+
+.dot2 h1 {
+    color: var(--background-color);
+    /* padding: 0px 10px; */
+    /* margin: 0px 10px; */
+}
+
+
+.name {
+    /* margin-left: 10px; */
+    /* margin-right: 20px; */
+    font-size: 10px;
+}
+
+
+.blog-text1{
+    /* margin: 10px 0px; */
+    font-size: 32px;
+    
+}
+
+.blog-text1 p{
+    margin: 30px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*   blog ends here=====> */
+
+/* testimonial starts here=====> */
+
+.testimonial-title{
+    text-align: center;
+}
+
+.testimonial-title h1{
+    font-size: 81px;
+    font-weight: 900;
+    background: linear-gradient(90deg,#b039b9,#5E4AF1);
+    background-clip: text;
+    color: transparent;
+}
+
+.testimonial-title p {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.testimonial-cards{
+    display: flex;
+    gap: 20px;
+}
+
+.testimonial-left-side-card{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonial-left-side-card-top{
+    
+    display: flex;
+    background: linear-gradient(90deg, #BA0BF933,#5E4AF12B);
+}
+
+.test-left-side-text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.test-left-side-text h1{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.test-left-side-text h3{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+#testimonial-right-side-card-top-id{
+    width: 100%;
+}
+
+
+
+
+.testimonial-right-side-card {
+    width: 35%;    /* (100-65)=35 remaining width */
+    display: flex;
+    background: linear-gradient(-90deg, #BA0BF933, #5E4AF12B);
+}   
+/* testimonial ends here=====> */
+
+
+
+
+/* footer starts here=====> */
+
+.footer-container{
+    background: linear-gradient(90deg, #5E4AF1C3, #BA0BF9E5);
+}
+
+.main-footer{
+    /* height: 100vh;  will conatin the full visual */
+    display: flex;
+    padding: 50px;
+    margin-top: 100px;
+
+}
+
+
+.footer-left-side{
+    width: 50%;
+    /* border: 2px solid white; */
+    padding: 50px;
+}
+
+.form-input{
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid white ;
+    width: 90%;
+    margin-bottom: 50px;
+    
+}
+
+
+::placeholder{       /* this is a placeholder selector
+    
+    it is used to change color and other attributes of the input text field*/
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.send-btn{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 95%;
+    font-size: 30px;
+}
+
+.footer-right-side{
+    width: 50%;
+    /* border: 2px solid white; */
+    padding: 50px;
+   
+}
+
+#f-contact-info{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    
+}
+
+#f-email-info{
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.f-social-icons{
+
+    margin-top: 30px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.f-social-icons img{
+    
+    
+    margin-top: 5px;
+}
+
+
+.hr-section{
+  /* border-bottom: 1px solid white; */
+  padding: 25px 100px;
+  
+}
+
+.footer-copy-right-text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* footer ends here=====> */
+
+
+
+/* extra practise of expertise section */
+/* my-expertise starts here=====> */
+.my-expertise{
+    
+    background: linear-gradient(90deg,#BA0BF91A,#5E4AF116);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.my-expertise-card-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+.my-exp-card1-upper-parent{
+    border: 3px solid #FEFFFFA6;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: #1a062188;
+   
+
+}
+
+
+.my-exp-card1-upper-parent h1{
+    padding: 30px;
+}
+
+
+.my-exp-card1-parent{
+    border: 1px solid #FEFFFFA6;
+    height: 380px;
+    border-bottom: none;
+    width: 380px;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    position: relative;
+}
+
+
+.my-exp-card-1{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    z-index: 50;  
+    /* z-index is used to overlap images...jar z-index beshi shey upore thakbe , jar z-index kom shey niche thakbe */
+}
+
+
+.sub-block-styles {
+    background-color: #4D4A53;
+    position: absolute;
+    z-index: 30;
+    height: 200px;
+    width: 350px;
+    top: 25px;
+    left: 25px;
+    border-radius: 30px;
+}
+
+.block-styles{  
+    background-color: #6868684D;
+    position: absolute;
+    z-index: 20;
+    height: 200px;
+    width: 300px;
+    top: 5px;
+    left: 50px;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* my-expertise ends here=====> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media reponsive====> adjustment for android devices */
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+    .expertise {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section-title {
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    .expertise img{
+        width: 100%;
+    }
+
+    .projects{
+        grid-template-columns: repeat(1, 1fr); /* 1 tai column a 1ta 1ta kore img thakbe  */
+    }
+
+    .check-all-project-btn button {
+        font-size: 20px;
+    }
+
+
+    .my-blogs {
+        flex-direction: column;
+    }
+
+    .my-blogs img{
+        width: 100%;
+    }
+
+        .testimonial-left-side-card {
+            width: 100%;
+        }
+
+    .testimonial-left-side-card-top {
+        flex-direction: column;
+        padding: 0px;
+        
+    }
+    .testimonial-left-side-card-top img{
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    .testimonial-cards {
+       flex-direction: column;
+    }
+
+    .testimonial-title h1 {
+        font-size: 58px;
+    }
+
+        .test-left-side-text {
+           
+            padding: 0px;
+           
+        }
+
+                .testimonial-right-side-card {
+                    width: 100%;
+                }
+                .testimonial-right-side-card img{
+                    width: 100%;
+                    padding: 0px;
+                }
+
+}
